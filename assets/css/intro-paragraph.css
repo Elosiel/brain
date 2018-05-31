@@ -1,0 +1,18 @@
+section.intro-paragraph {
+    background-color: #fafafa;
+    padding: 70px 0px;
+}
+
+section.intro-paragraph .title {
+    font-size: 30px;
+    font-family: Corsiva;
+    font-style: italic;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+section.intro-paragraph .description {
+    line-height: 26px;
+    margin-top: 20px;
+    text-align: justify;
+}

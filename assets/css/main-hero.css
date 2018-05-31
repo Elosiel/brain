@@ -1,0 +1,52 @@
+section.main-hero {
+    background-image: url("../images/light.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    color: white;
+}
+
+section.main-hero .content {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+section.main-hero h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section.main-hero h1 span {
+    color: #f4c93c
+}
+
+section.main-hero h2 {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+section.main-hero .arrow {
+    background-color: #ffd200;
+    font-size: 30px;
+    left: 50%;
+    top: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+}
+
+@media (max-width: 575px) {
+    section.main-hero {
+        height: 420px;
+    }
+    section.main-hero h1 {
+        font-size: 50px;
+    }
+}

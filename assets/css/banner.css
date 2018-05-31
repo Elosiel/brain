@@ -1,0 +1,49 @@
+#banner-1 {
+    font-style: italic
+}
+
+#banner-2 {
+    color: #f4c93c;
+}
+
+#banner-3 {
+    border-left: solid 1px gray;
+}
+
+#china {
+    height: 300px;
+    position: relative;
+    background-size: cover 100%;
+    background-position: center;
+    background-image: url("../images/men.jpg")
+}
+
+#half-banner {
+    padding-top: 80px;
+}
+
+section.banner {
+    position: relative;
+}
+
+section.banner .arrow {
+    background-color: #f4c93c;
+    font-size: 30px;
+    left: 95%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50% -50%);
+    width: 55px;
+    weight: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+}
+
+section.banner .description span {
+    color: #f4c93c;
+}
+
+section.banner .description p {
+    text-transform: uppercase;
+    font-weight: bold;
+}

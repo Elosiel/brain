@@ -1,0 +1,113 @@
+section.top-nav {
+    background-color: #fafafa;
+    padding-top: 20px;
+}
+
+section.top-nav #logo {
+    margin-left: 40px;
+    line-height: 76px;
+}
+
+seticion.top-nav #logo img {
+    max-width: 100%;
+}
+
+section.top-nav #menu ul {
+    margin-bottom: 0px;
+    float: right;
+}
+
+section.top-nav #menu ul li {
+    margin-right: 0px;
+    float: left
+}
+
+section.top-nav #menu ul li:last-child a {
+    background-color: #ffcb02;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+section.top-nav #menu ul li:last-child a:hover {
+    background-color: #ff6308;
+}
+
+section.top-nav #menu ul li:last-child a:before {
+    border-right: 10px solid transparent;
+    border-top: 75px solid #fafafa;
+    content: "";
+    display: block;
+    height: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+}
+
+section.top-nav #menu ul li a {
+    text-transform: uppercase;
+    color: #232328;
+    font-weight: 30opx;
+    line-height: 26px;
+    font-size: 16px;
+    display: block;
+    padding: 25px 28px;
+    text-decoration: none;
+    transition: background-color 0.5s linear;
+}
+
+section.top-nav #menu ul li:not(:last-child) a:hover {
+    background-color: #dedede;
+}
+
+section.top-nav #toogle-menu {
+    margin-bottom: 15px;
+}
+
+section.top-nav #toogle-menu a {
+    text-transform: uppercase;
+    color: #232338;
+    text-decoration: none;
+}
+
+@media (min-width: 551px) {
+    section.top-nav #logo {
+        display: block;
+        height: auto;
+        visibility: visible;
+        margin-left: 0px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+    section.top-nav #menu ul li {
+        width: 100%
+    }
+    section.top-nav #menu ul li:last-child a:before {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    section.top-nav #menu {
+        display: block;
+        height: auto;
+        visibility: visible;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    section.top-nav #logo {
+        margin-left: opx;
+        line-height: 46px;
+    }
+    section.top-nav #menu ul li a {
+        font-size: 14px;
+        padding: 10px;
+    }
+    section.top-nav #menu ul li:last-child a:before {
+        display: none;
+    }
+}
